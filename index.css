@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;    
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px;
+    justify-content: space-between
+}
+header img{
+    height: 40px;
+}
+#dog-image-container{
+    position: relative;
+    width: 95%;
+    aspect-ratio: 3/4;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 15px;
+    color: #F8F8F8;
+}
+.info-container{
+    position: absolute;
+    bottom: 0;
+    padding: 12px 0;
+}
+.info-container h2{
+    margin-bottom: 10px;
+   
+    margin-left:20px
+}
+.info-container p{
+    color:#B7B7B7;
+    width:180px;
+    font-size: 1.2em;
+    margin-bottom: 60px;
+    margin-left:20px;
+
+}
+.badge img{
+    position: relative;
+    top: 50px;
+    width: 200px;
+    transform: rotate(-25deg);
+    visibility: hidden;
+}
+
+.btn-container{
+    width: 100%;
+    padding: 25px 0;
+    display: flex;
+    position: relative;
+    bottom: 0;
+    justify-content: center;
+}
+.btn{
+    height: 90px;
+    width: 90px;
+    border-radius: 500px;
+    border: 0;
+    background-color: white;
+    margin: 0 12px;
+    box-shadow: 0px 10px 20px #E9E9EA;
+}
+.btn-like:hover{
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
+.btn-nope:hover{
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
